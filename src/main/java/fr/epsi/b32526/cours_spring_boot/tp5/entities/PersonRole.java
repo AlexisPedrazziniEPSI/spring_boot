@@ -1,4 +1,4 @@
-package fr.epsi.b32526.cours_spring_boot.entities;
+package fr.epsi.b32526.cours_spring_boot.tp5.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,6 +1,6 @@
-package fr.epsi.b32526.cours_spring_boot.Repositories;
+package fr.epsi.b32526.cours_spring_boot.tp5.Repositories;
 
-import fr.epsi.b32526.cours_spring_boot.entities.Person;
+import fr.epsi.b32526.cours_spring_boot.tp5.entities.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package fr.epsi.b32526.cours_spring_boot.entities;
+package fr.epsi.b32526.cours_spring_boot.tp5.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
@@ -13,14 +13,14 @@ import java.io.Serializable;
 @Setter
 @EqualsAndHashCode
 @Embeddable
-public class PersonAnimalId implements Serializable {
+public class PersonRoleId implements Serializable {
     @Serial
-    private static final long serialVersionUID = 5037997254198828168L;
+    private static final long serialVersionUID = 3009239939766878243L;
     @Column(name = "person_id", nullable = false)
     private Integer personId;
 
-    @Column(name = "animals_id", nullable = false)
-    private Integer animalsId;
+    @Column(name = "role_id", nullable = false)
+    private Integer roleId;
 
 
 }
